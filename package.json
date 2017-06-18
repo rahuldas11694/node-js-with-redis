@@ -1,0 +1,19 @@
+{
+  "name": "reduser",
+  "version": "1.0.0",
+  "description": "user management ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "nodemon": "^1.11.0",
+    "redis": "^2.7.1"
+  }
+}

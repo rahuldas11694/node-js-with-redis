@@ -1,0 +1,25 @@
+<h1 style="padding-top: 100px">Add users</h1>
+{{log error}}
+{{#if error}} <span>{{error}}</span> {{/if}}
+<form class='' method="POST" action="/user/add">
+	<div class="container"> 
+	<label>ID</label>
+	<input type="text" name="id" placeholder = "Add id" class="form-contorl">
+
+	<label>FIRST NAME</label>
+	<input type="text" name="first_name" placeholder = "First name" class="form-contorl">
+
+	<label>LAST NAME</label>
+	<input type="text" name="last_name" placeholder = "Last name" class="form-contorl">
+
+	<label>EMAIL </label>
+	<input type="text" name="email" placeholder = "email address" class="form-contorl">
+
+	<label>Phone</label>
+	<input type="text" name="phone" placeholder = "Add id" class="form-contorl">
+
+	<input type="submit" class="btn btn-primary" value="Save">
+	</div>	
+
+
+</form>

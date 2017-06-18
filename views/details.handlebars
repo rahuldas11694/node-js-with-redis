@@ -1,0 +1,14 @@
+
+<h1 class="list-group-item" style="padding-top: 60px" >{{user.first_name}} {{user.last_name}} [{{user.id}}]</h1>
+
+<ul class='list-group'> 
+	<li class='list-group-item'> <strong>Email: </strong> {{user.email}} </li>
+	<li class='list-group-item'> <strong>Phone: </strong>{{user.phone}}</li>
+</ul>
+
+<a class="btn btn-default" href="/">Back </a>
+
+<form method="POST" action="/user/delete/{{user.id}}?_method=DELETE">
+	
+	<input type="submit" name="btn btn-danger pull-right" value="delete">
+</form>
